@@ -25,8 +25,8 @@ def update(request, todo_id):
     return redirect('list-view')
 
 
-def create_page(request):
-    return render(request, 'todo_app/create-task.html')
+def create_view(request):
+    return render(request, 'todo_app/create-view.html')
 
 
 def create(request):
